@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Paytone+One&family=Red+Rose:wght@300..700&family=Righteous&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 70px;
+  background-color: #B09464;
+}
+
+.logo-text {
+  position: relative;
+  top: 10px;
+  left: 24px;
+  font-family: 'Paytone One';
+  color: white;
+  font-weight: 50;
+}
+
+.logo-text span {
+  color: #FFEB9A;
+}
+
+.nav {
+  position: absolute;
+  top: 25px;
+  left: 500px;
+}
+
+.nav a {
+  font-size: larger;
+  font-weight: 400;
+  margin-right: 24px;
+  text-decoration: none;
+  font-family: sans-serif;
+  padding: 24px 8px;
+}
+
+.nav-home {
+  background-color: #FFE999;
+  color: black;
+}
+
+.nav-about {
+  /* background-color: #FFE999; */
+  color: white;
+}
+
+.nav-team {
+  /* background-color: #FFE999; */
+  color: white;
+}
+
+.nav-blog {
+  /* background-color: #FFE999; */
+  color: white;
+}
+
+.nav-contact {
+  /* background-color: #FFE999; */
+  color: white;
+}
+
+.header i {
+  position: absolute;
+  top: 12px;
+  left: 90%;
+  font-size: 35px;
+}
+
+.hero-container {
+  position: relative;
+  width: 100%;
+  height: 680px;
+  background-color: #F5E4D1;
+}
+
+.hero-container img {
+  position: relative;
+  top: 80px;
+  left: 250px;
+  width: 750px;
+}
+
+.hero-circle1 {
+  position: absolute;
+  top: 50%;
+  left: 65%;
+  width: 900px;
+  height: 800px;
+  border-radius: 50%;
+  background-color: #EDD0B5;
+  opacity: 0.6;
+}
+
+.hero-circle2 {
+  position: absolute;
+  top: -50%;
+  left: 75%;
+  width: 900px;
+  height: 800px;
+  border-radius: 50%;
+  background-color: #EDD0B5;
+  opacity: 0.5;
+}
+
+.content-container {
+  position: relative;
+  width: 100%;
+  height: 980px;
+  background-color: #EDD0B5;
+  padding-top: 24px;
+  padding-left: 32px;
+}
+
+.content_box {
+  font-family: 'Red Rose', sans-serif;
+  position: relative;
+  width: 730px;
+  height: 330px;
+}
+
+.content_box img {
+  position: absolute;
+  top: 24px;
+  width: 40%;
+}
+
+.content_box h1 {
+  position: absolute;
+  top: 36px;
+  left: 320px;
+}
+
+.content_box p {
+  position: absolute;
+  font-size: larger;
+  top: 95px;
+  left: 320px;
+  line-height: 34px;
+}
+
+.content_box-trend {
+  position: absolute;
+  top: 70px;
+  right: 100px;
+  width: 500px;
+  height: 900px;
+  background-color: #FCF0D4;
+}
+
+.content_box-trend_header {
+  position: absolute;
+  top: -35px;
+  left: 110px;
+  width: 60%;
+  height: 75px;
+  background-color: #B09464;
+}
+
+.content_box-trend_header h1 {
+  font-family: 'Red Rose', sans-serif;
+  color: white;
+  position: relative;
+  top: 18px;
+  left: 83px;
+}
+
+.content_box-trend_content1 {
+  position: absolute;
+  top: 85px;
+  left: 130px;
+}
+
+.content_box-trend_content1 h1 {
+  position: relative;
+  font-weight: 100;
+  left: -40px;
+  margin-bottom: 10px;
+}
+
+.content_box-trend_content1 a {
+  text-decoration: none;
+  color: black;
+  margin-left: 18px;
+  font-size: x-large;
+}
+
+.content_box-trend_content2 {
+  position: absolute;
+  top: 460px;
+  left: 130px;
+}
+
+.content_box-trend_content2 img {
+  width: 83%;
+}
+
+.content_box-trend_content2 h1 {
+  position: relative;
+  font-weight: 100;
+  left: -40px;
+  margin-bottom: 10px;
+}
+
+.content_box-trend_content2 a {
+  text-decoration: none;
+  color: black;
+  margin-left: 38px;
+  font-size: x-large;
+}
+
+.content_box-trend_content3 {
+  position: absolute;
+  bottom: 0;
+  left: 130px;
+}
+
+.content_box-trend_content3 h1 {
+  position: relative;
+  font-weight: 100;
+  left: -40px;
+  margin-bottom: 10px;
+}
+
+.qoute-container {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  background-color: #FFF8DC;
+}
+
+.quote-circle1 {
+  position: absolute;
+  top: 50px;
+  left: 80px;
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  border: 4px solid #B09464;
+}
+
+.quote-circle2 {
+  position: relative;
+  top: 4.5px;
+  left: 4.5px;
+  width: 390px;
+  height: 390px;
+  border-radius: 50%;
+  background-color: #B09464;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  background-color: #B09464;
+}
+
+.team-hero-container {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  background-color: #EFD2B5;
+}
