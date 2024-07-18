@@ -29,7 +29,7 @@
 
 .nav {
   position: absolute;
-  top: 25px;
+  top: 22px;
   left: 500px;
 }
 
@@ -39,7 +39,7 @@
   margin-right: 24px;
   text-decoration: none;
   font-family: sans-serif;
-  padding: 24px 8px;
+  padding: 23px 8px;
   font-family: 'Abel', sans-serif;
 }
 
@@ -338,34 +338,62 @@
   background-color: #F9E6D4;
 }
 
+.team-container-circle1 {
+  position: absolute;
+  top: -20px;
+  left: -150px;
+  width: 440px;
+  height: 600px;
+  border-radius: 50%;
+  background-color: #EFD2B5;
+}
+
+.team-container-circle2 {
+  position: absolute;
+  top: 390px;
+  left: -200px;
+  width: 600px;
+  height: 600px;
+  border-radius: 50%;
+  background-color: #EFD2B5;
+}
+
 .meet {
-  font-family: 'Rhodium Libre';
+  font-family: 'Righteous', sans-serif;
   position: relative;
   top: 28px;
   text-align: center;
-  letter-spacing: 40px;
-  color: blue;
+  letter-spacing: 54px;
+  color: #23A8A3;
 }
 
-.team-container-people {
+/* kathlyn section */
+
+.kathlyn-container {
   background-color: #D8B885;
   position: relative;
-  top: 200px;
+  top: 160px;
   left: 50px;
   width: 320px;
   height: 520px;
   border-radius: 48px;
 }
 
-
-.team-container-people img {
+.kathlyn-container-circle {
   position: relative;
   top: -100px;
   left: 55px;
   width: 220px;
 }
 
-.team-container-name {
+.kathlyn-img{
+  position: relative;
+  top: -317px;
+  left: 55px;
+  width: 220px;
+}
+
+.kathlyn-container-name {
   position: absolute;
   top: 70px;
   left: 66px;
@@ -374,7 +402,7 @@
   font-size: 55px;
 }
 
-.team-container-caption {
+.kathlyn-container-caption {
   color: #105f5c;
   position: absolute;
   top: 134px;
@@ -383,7 +411,114 @@
   letter-spacing: 8px;
 }
 
-.team-container p {
+.describe-kathlyn {
+  position: absolute;
+  font-family: 'Rhodium Libre';
+  color: white;
+  top: 190px;
+  left: 24px;
+  font-size: large;
+}
+
+/* angela section */
+
+.angela-container {
+  background-color: #D8B885;
+  position: relative;
+  top: -355px;
+  left: 500px;
+  width: 320px;
+  height: 520px;
+  border-radius: 48px;
+}
+
+.angela-container-circle {
+  position: relative;
+  top: -100px;
+  left: 55px;
+  width: 220px;
+}
+
+.angela-img{
+  position: relative;
+  top: -317px;
+  left: 55px;
+  width: 220px;
+}
+
+.angela-container-name {
+  position: absolute;
+  top: 70px;
+  left: 99px;
+  color: #C75824;
+  font-family: 'Kaushan Script'; 
+  font-size: 55px;
+}
+
+.angela-container-caption {
+  color: #105f5c;
+  position: absolute;
+  top: 134px;
+  left: 65px;
+  font-family: 'Red Rose', sans-serif;
+  letter-spacing: 8px;
+}
+
+.describe-angela {
+  position: absolute;
+  font-family: 'Rhodium Libre';
+  color: white;
+  top: 190px;
+  left: 24px;
+  font-size: large;
+}
+
+/* jan jan section */
+
+.jan_jan-container {
+  background-color: #D8B885;
+  position: relative;
+  top: -874px;
+  left: 920px;
+  width: 320px;
+  height: 520px;
+  border-radius: 48px;
+}
+
+.jan_jan-container-circle {
+  position: relative;
+  top: -100px;
+  left: 55px;
+  width: 220px;
+}
+
+.jan_jan-img{
+  position: relative;
+  top: -345px;
+  left: 55px;
+  width: 220px;
+}
+
+.jan_jan-container-name {
+  position: absolute;
+  top: 70px;
+  left: 66px;
+  color: #C75824;
+  font-family: 'Kaushan Script'; 
+  font-size: 55px;
+}
+
+.jan_jan-container-caption {
+  color: #105f5c;
+  position: absolute;
+  top: 134px;
+  left: 40px;
+  font-family: 'Red Rose', sans-serif;
+  letter-spacing: 8px;
+  text-align: center;
+}
+
+.describe-jan_jan {
   position: absolute;
   font-family: 'Rhodium Libre';
   color: white;
