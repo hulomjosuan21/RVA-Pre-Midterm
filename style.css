@@ -5,6 +5,8 @@
   padding: 0;
 }
 
+/* header section */
+
 .header {
   position: fixed;
   top: 0;
@@ -82,6 +84,8 @@
   background-color: #F5E4D1;
 }
 
+/* hero section */
+
 .hero-container img {
   position: relative;
   top: 80px;
@@ -110,6 +114,8 @@
   background-color: #EDD0B5;
   opacity: 0.5;
 }
+
+/* content section */
 
 .content-container {
   position: relative;
@@ -234,6 +240,8 @@
   margin-bottom: 10px;
 }
 
+/* qoute container */
+
 .qoute-container {
   position: relative;
   width: 100%;
@@ -296,6 +304,8 @@
   font-size: 120px;
 }
 
+/* footer section */
+
 .footer {
   position: fixed;
   bottom: 0;
@@ -311,6 +321,8 @@
   font-family: 'Abel', sans-serif;
   margin-top: 16px;
 }
+
+/* team section */
 
 .team-hero-container {
   position: relative;
@@ -334,7 +346,7 @@
 .team-container {
   position: relative;
   width: 100%;
-  height: 900px;
+  height: 1450px;
   background-color: #F9E6D4;
 }
 
@@ -353,7 +365,17 @@
   top: 390px;
   left: -200px;
   width: 600px;
-  height: 600px;
+  height: 700px;
+  border-radius: 50%;
+  background-color: #EFD2B5;
+}
+
+.team-container-circle3 {
+  position: absolute;
+  top: -85px;
+  right: -280px;
+  width: 600px;
+  height: 160px;
   border-radius: 50%;
   background-color: #EFD2B5;
 }
@@ -479,7 +501,7 @@
   background-color: #D8B885;
   position: relative;
   top: -874px;
-  left: 920px;
+  left: 930px;
   width: 320px;
   height: 520px;
   border-radius: 48px;
@@ -519,6 +541,154 @@
 }
 
 .describe-jan_jan {
+  position: absolute;
+  font-family: 'Rhodium Libre';
+  color: white;
+  top: 190px;
+  left: 24px;
+  font-size: large;
+}
+
+/* aileen */
+
+.aileen-container {
+  background-color: #D8B885;
+  position: relative;
+  top: -730px;
+  left: 50px;
+  width: 320px;
+  height: 470px;
+  border-radius: 48px;
+}
+
+.aileen-container-circle {
+  position: relative;
+  top: -100px;
+  left: 55px;
+  width: 220px;
+}
+
+.aileen-img{
+  position: relative;
+  top: -345px;
+  left: 55px;
+  width: 220px;
+}
+
+.aileen-container-name {
+  position: absolute;
+  top: 70px;
+  left: 66px;
+  color: #C75824;
+  font-family: 'Kaushan Script'; 
+  font-size: 55px;
+}
+
+.aileen-container-caption {
+  color: #105f5c;
+  position: absolute;
+  top: 134px;
+  left: 40px;
+  font-family: 'Red Rose', sans-serif;
+  letter-spacing: 8px;
+  text-align: center;
+}
+
+.describe-aileen {
+  position: absolute;
+  font-family: 'Rhodium Libre';
+  color: white;
+  top: 190px;
+  left: 24px;
+  font-size: large;
+}
+
+/* dorothy */
+
+.dorothy-container {
+  background-color: #D8B885;
+  position: relative;
+  top: -1196px;
+  left: 500px;
+  width: 320px;
+  height: 470px;
+  border-radius: 48px;
+}
+
+.dorothy-container-circle {
+  position: relative;
+  top: -100px;
+  left: 55px;
+  width: 220px;
+}
+
+.dorothy-container-name {
+  position: absolute;
+  top: 70px;
+  left: 66px;
+  color: #C75824;
+  font-family: 'Kaushan Script'; 
+  font-size: 55px;
+}
+
+.dorothy-container-caption {
+  color: #105f5c;
+  position: absolute;
+  top: 134px;
+  left: 80px;
+  font-family: 'Red Rose', sans-serif;
+  letter-spacing: 8px;
+  text-align: center;
+}
+
+.describe-dorothy {
+  position: absolute;
+  font-family: 'Rhodium Libre';
+  color: white;
+  top: 190px;
+  left: 24px;
+  font-size: large;
+}
+
+/* jennkeet */
+
+.jennkeet-container {
+  background-color: #D8B885;
+  position: relative;
+  top: -1665px;
+  left: 930px;
+  width: 320px;
+  height: 470px;
+  border-radius: 48px;
+}
+
+.jennkeet-container-circle {
+  position: relative;
+  top: -100px;
+  left: 55px;
+  width: 220px;
+}
+
+.jennkeet-container-name {
+  position: absolute;
+  top: 70px;
+  left: 66px;
+  color: #C75824;
+  font-family: 'Kaushan Script'; 
+  font-size: 55px;
+}
+
+.jennkeet-container-caption {
+  color: #105f5c;
+  position: absolute;
+  top: 134px;
+  left: 50px;
+  font-family: 'Red Rose', sans-serif;
+  letter-spacing: 8px;
+  text-align: center;
+}
+
+.describe-jennkeet {
   position: absolute;
   font-family: 'Rhodium Libre';
   color: white;
